@@ -1,0 +1,124 @@
+
+    /* General body and font */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #fff;
+        color: #111;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Sidebar */
+    .sidebar {
+        background: #111;
+        color: #fff;
+        padding: 1rem;
+        min-height: 100vh;
+    }
+
+    .sidebar a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 0.4rem 0;
+        transition: color 0.2s;
+    }
+
+    .sidebar a:hover {
+        color: #ccc;
+    }
+
+    /* Main content */
+    .content {
+        padding: 2rem;
+    }
+
+    h1, h2, h3, h4, h5 {
+        color: #111;
+        margin-bottom: 1rem;
+    }
+
+    /* List group (user rows) */
+    .list-group-item {
+        background: #fff;
+        border: 1px solid #111;
+        border-radius: 4px;
+        margin-bottom: 0.5rem;
+        transition: background 0.2s, color 0.2s;
+    }
+
+    .list-group-item:hover {
+        background: #f4f4f4;
+    }
+
+    /* Badge */
+    .badge {
+        font-weight: 500;
+    }
+
+    .bg-success {
+        background: #111 !important;
+        color: #fff !important;
+    }
+
+    .bg-secondary {
+        background: #ccc !important;
+        color: #111 !important;
+    }
+
+    /* Buttons */
+    .btn {
+        background: #111;
+        color: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        transition: background 0.2s, color 0.2s;
+    }
+
+    .btn:hover {
+        background: #333;
+        color: #fff;
+    }
+
+    /* Card */
+    .card {
+        border: 1px solid #111;
+        border-radius: 6px;
+        background: #fff;
+        margin-bottom: 1rem;
+    }
+
+    .card-header, .card-footer {
+        border-bottom: 1px solid #111;
+        background: #f9f9f9;
+        padding: 0.75rem 1rem;
+    }
+
+    .card-footer {
+        border-top: 1px solid #111;
+        border-bottom: none;
+        text-align: right;
+    }
+
+    /* Alert component */
+    .alert {
+        border: 1px solid #111;
+        background: #fff;
+        color: #111;
+        padding: 0.75rem 1rem;
+        border-radius: 4px;
+        margin-bottom: 1rem;
+    }
+
+    /* Links inside content */
+    a {
+        color: #111;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #555;
+        text-decoration: underline;
+    }
+
